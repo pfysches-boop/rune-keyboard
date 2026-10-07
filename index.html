@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+  <title>rune keyboard</title>
+  <link rel="icon" href="fish.png"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="buttons">
+    <table>
+      <tr>
+        <td>ᚠ</td>
+        <td>ᚡ</td>
+        <td>ᚢ</td>
+        <td>ᚤ</td>
+        <td>ᚦ</td>
+        <td>ᚧ</td>
+        <td>ᚩ</td>
+        <td>ᚱ</td>
+        <td>ᚳ</td>
+        <td>ᚲ</td>
+      </tr>
+      <tr>
+        <td>ᚷ</td>
+        <td>ᚸ</td>
+        <td>ᚹ</td>
+        <td>ᚻ</td>
+        <td>ᚺ</td>
+        <td>ᚾ</td>
+        <td>ᛁ</td>
+        <td>ᛄ</td>
+        <td>ᛃ</td>
+        <td>ᛇ</td>
+      </tr>
+      <tr>
+        <td>ᛈ</td>
+        <td>ᛉ</td>
+        <td>ᛋ</td>
+        <td>ᛊ</td>
+        <td>ᛏ</td>
+        <td>ᛒ</td>
+        <td>ᛔ</td>
+        <td>ᛖ</td>
+        <td>ᛗ</td>
+        <td>ᛚ</td>
+      </tr>
+      <tr>
+        <td>ᛝ</td>
+        <td>ᛜ</td>
+        <td>ᛞ</td>
+        <td>ᛟ</td>
+        <td>ᚪ</td>
+        <td>ᚨ</td>
+        <td>ᚣ</td>
+        <td>ᚥ</td>
+        <td>ᛡ</td>
+        <td>ᛠ</td>
+      </tr>
+      <tr>
+        <td>ᛣ</td>
+        <td>ᛤ</td>
+        <td>ᛢ</td>
+        
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+
+        <td>᛫</td>
+        <td>᛬</td>
+        <td>᛭</td>
+      </tr>
+      
+    </table>
+  </div>
+
+  <div class="texty">
+    <label>ASCII</label> <br/>
+    <input id="ascii-input"></input>
+  </div>
+  <br/><br/>
+  <div class="texty">
+    <label>Runes</label> <br/>
+    <input readonly id="rune-output"></input>
+  </div>
+  <br/><br/>
+  <div style="width: 50%;">
+    <button id="copy-button">Copy Runes</button>
+    <button id="clear-button">Clear Fields</button>
+    <a id="copy-indicator" style="opacity: 0;">Copied!</a>
+  </div>
+
+  <script src="main.js"></script>
+</body>
